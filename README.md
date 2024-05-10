@@ -1,0 +1,6 @@
+[Download Model 1](s3://models-s3-tensorflow-keras-bucket/densenet121_final.keras)
+[Download Model 2](s3://models-s3-tensorflow-keras-bucket/densenet169_final.keras)
+[Download Model 3](s3://models-s3-tensorflow-keras-bucket/densenet201_final.keras)
+[Download Model 4](s3://models-s3-tensorflow-keras-bucket/resnet152_final.keras)
+[Download Model 5](s3://models-s3-tensorflow-keras-bucket/resnet50_final.keras)
+[Download Model 6](s3://models-s3-tensorflow-keras-bucket/vgg16_final.keras)
