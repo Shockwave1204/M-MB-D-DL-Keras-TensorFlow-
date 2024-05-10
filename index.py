@@ -13,12 +13,12 @@ def load_model(model_path):
 
 # Load multiple models
 model_paths = {
-    "DenseNet169": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/densenet169_final.keras",
-    "DenseNet201": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/densenet201_final.keras",
-    "DenseNet121": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/densenet121_final.keras",
-    "VGG16": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/vgg16_final.keras",
-    "ResNet50": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/resnet50_final.keras",
-    "ResNet152": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/resnet152_final.keras",
+    "DenseNet169": "densenet169_final.keras",
+    "DenseNet201": "densenet201_final.keras",
+    "DenseNet121": "densenet169_final.keras",
+    "VGG16": "vgg16_final.keras",
+    "ResNet50": "resnet50_final.keras",
+    "Xception": "xception_final.keras",
 }
 
 # Configure Git LFS tracking for large model files
