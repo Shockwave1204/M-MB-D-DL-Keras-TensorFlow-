@@ -13,14 +13,26 @@ def load_model(model_path):
 
 # Load multiple models
 model_paths = {
-    "DenseNet169": "densenet169_final.keras",
-    "DenseNet201": "densenet201_final.keras",
-    "DenseNet121": "densenet121_final.keras",
-    "VGG16": "vgg16_final.keras",
-    "ResNet50": "resnet50_final.keras",
-    "ResNet152": "resnet152_final.keras",
+    "DenseNet169": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/densenet169_final.keras",
+    "DenseNet201": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/densenet201_final.keras",
+    "DenseNet121": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/densenet121_final.keras",
+    "VGG16": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/vgg16_final.keras",
+    "ResNet50": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/resnet50_final.keras",
+    "ResNet152": "https://models-s3-tensorflow-keras-bucket.s3.amazonaws.com/resnet152_final.keras",
 }
 
+# Configure Git LFS tracking for large model files
+# Make sure you've installed Git LFS and initialized it before running this code
+# Run the following commands in your terminal from the project directory:
+# git lfs install
+# git lfs track "densenet169_final.keras"
+# git lfs track "densenet201_final.keras"
+# git lfs track "densenet121_final.keras"
+# git lfs track "vgg16_final.keras"
+# git lfs track "resnet50_final.keras"
+# git lfs track "resnet152_final.keras"
+
+# Load models
 models = {name: load_model(path) for name, path in model_paths.items()}
 
 # Define class labels
