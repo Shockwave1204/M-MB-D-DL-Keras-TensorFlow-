@@ -3,4 +3,4 @@ densenet201_final.keras filter=lfs diff=lfs merge=lfs -text
 densenet121_final.keras filter=lfs diff=lfs merge=lfs -text
 vgg16_final.keras filter=lfs diff=lfs merge=lfs -text
 resnet50_final.keras filter=lfs diff=lfs merge=lfs -text
-resnet152_final.keras filter=lfs diff=lfs merge=lfs -text
+xception_final.keras filter=lfs diff=lfs merge=lfs -text
